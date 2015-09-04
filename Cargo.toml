@@ -1,0 +1,13 @@
+[package]
+name = "iron-redis-middleware"
+version = "0.1.0"
+authors = ["Darayus Nanavati <darayus.contact@gmail.com>"]
+
+[dependencies]
+
+iron = "*"
+r2d2 = "*"
+redis = "*"
+
+[dependencies.r2d2_redis]
+git = "https://github.com/nevdelap/r2d2-redis"
